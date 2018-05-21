@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background: url(Images/doog.JPG);
+    background-size: cover;
+    height: 100%; 
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.black {
+    color: black;
+}
+
+.carousel,.item,.active {
+    height:100%;
+    display:block;
+}
+
+.carousel-inner{
+    height:100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hhh {
+    text-align: left;
+    top: 50%;
+    display: block;
+    
+}
+
+#first {
+    display: inline;
+}
+
+#dogs {
+    width: 100%;
+    display: block;
+    margin-bottom: 10%;
+
+}
+
+#slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#show {
+    background-color: white;
+    display: inline;
+}
+
+.container{
+    height: 100%;
+}
+
+#work{
+    height: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+#title{
+    margin-bottom: 10%;
+    font-size: 33px;
+}
+
+
+#icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+#alone{
+    margin-top: 30%;
+    text-align: center;
+}
+
+#nj{
+    float: right;
+}
+
+@media only screen and (min-width: 770px) {
+#dogs{
+    width: 100%;
+    height: auto;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    display:block;
+    margin-left: 10%;
+}
+}
