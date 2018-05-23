@@ -2,6 +2,9 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 .header {
@@ -28,6 +31,17 @@ body, html {
     width:100%;
     margin: 0px;
     padding: 0px;
+}
+
+.carousel-caption{
+    text-shadow: none;
+    text-align: left;
+    margin-top: 0px;
+    left: 0;
+    margin-left: 10%;
+    top: 1px;
+    padding: 70px 0;
+    position: absolute;
 }
 
 #hhh {
@@ -86,12 +100,43 @@ body, html {
 }
 
 #alone{
-    margin-top: 30%;
-    text-align: center;
+    margin-top: 20%;
+    text-align: right;
+    line-height: 80%;
 }
 
 #nj{
     float: right;
+}
+
+
+
+#lyp{
+	color: #008080;
+	font-weight: bold;
+	font-size: 30pt;
+	font-family: "Lato";
+	margin-right: 10%;
+    line-height: 80%;
+    
+}
+
+#slit{
+    color: #008080;
+	font-size: 30pt;
+	font-weight: normal;
+	font-family: "Lato";
+	margin-right: 10%;
+}
+
+#rf{
+	font-size: 24pt;
+	font-family: "Lato";
+	color: #999999;
+	font-weight: 300;
+	margin-right: 10%;
+	line-height: 80%;
+
 }
 
 @media only screen and (min-width: 770px) {
